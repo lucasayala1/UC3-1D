@@ -19,54 +19,107 @@ const PI = 3.14;     // Constante que não pode ser reatribuída
 ```
 
 
-## Tipos de Dados
+## 2. Tipos de Dados
 
-JavaScript suporta diversos tipos de dados:
+Tipos de Dados em JavaScript
+JavaScript suporta diversos tipos de dados. Aqui estão os principais tipos com exemplos:
 
-String: Representa texto. Exemplo: "Olá, Mundo!"
-Number: Representa números. Exemplo: 42, 3.14
-Boolean: Representa verdadeiro ou falso. Exemplo: true, false
-Object: Representa objetos. Exemplo: { nome: "Maria", idade: 25 }
-Array: Representa listas. Exemplo: [1, 2, 3, 4]
-null: Representa ausência de valor.
-
-## Condicionais
+1. String
+2. Strings representam texto.
 
 javascript
+Copiar código
+let saudacao = "Olá, Mundo!";
+console.log(saudacao); // Saída: Olá, Mundo!
+
+let nome = "Maria";
+let mensagem = "Bem-vinda, " + nome + "!";
+console.log(mensagem); // Saída: Bem-vinda, Maria!
+2. Number
+Números podem ser inteiros ou de ponto flutuante.
+
+javascript
+Copiar código
+let idade = 25; // Número inteiro
+let pi = 3.14;  // Número de ponto flutuante
+
+console.log(idade); // Saída: 25
+console.log(pi);   // Saída: 3.14
+
+let soma = idade + pi;
+console.log(soma); // Saída: 28.14
+3. Boolean
+Booleanos representam valores lógicos: verdadeiro (true) ou falso (false).
+
+javascript
+Copiar código
+let verdadeiro = true;
+let falso = false;
+
+console.log(verdadeiro); // Saída: true
+console.log(falso);     // Saída: false
+
+if (verdadeiro) {
+    console.log("Isso é verdadeiro!");
+} else {
+    console.log("Isso é falso!");
+}
+// Saída: Isso é verdadeiro!
+4. Object
+Objetos são coleções de pares chave-valor.
+
+javascript
+Copiar código
+let pessoa = {
+    nome: "Maria",
+    idade: 25
+};
+
+console.log(pessoa.nome);  // Saída: Maria
+console.log(pessoa.idade); // Saída: 25
+
+// Adicionando uma nova propriedade
+pessoa.cidade = "São Paulo";
+console.log(pessoa.cidade); // Saída: São Paulo
+
+// Alterando um valor
+pessoa.idade = 26;
+console.log(pessoa.idade); // Saída: 26
+5. Exemplo com if...else
+Aqui está um exemplo de uso de tipos de dados com a estrutura condicional if...else.
+
+javascript
+Copiar código
+let idade = 20;
+
+if (idade >= 18) {
+    console.log("Você é maior de idade.");
+} else {
+    console.log("Você é menor de idade.");
+}
+// Saída: Você é maior de idade.
+
+## 3. Condicionais
+
+``` javascript
 Copiar código
 if (idade >= 18) {
     console.log("Você é maior de idade.");
 } else {
     console.log("Você é menor de idade.");
 }
-
-## Arrays
-
-Arrays são listas de valores.
-
-let frutas = ["maçã", "banana", "laranja"];
-console.log(frutas[0]); // maçã
-
-frutas.push("uva"); // Adiciona "uva" ao array
-console.log(frutas); // ["maçã", "banana", "laranja", "uva"] Arrays
-Arrays são listas de valores.
+```
 
 ## Atividades desenvolvidas
 
 Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelhar a atividade e usar links das atividades do codepen e vídeos desenvolvidos em sala. 
-{Item 1 (https://codepen.io/GHZ-_EDITS/pen/wvLeMYO?editors=0010)}
-{Item 2 (https://codepen.io/GHZ-_EDITS/pen/wvLeMYO)}
-{Item 3(https://codepen.io/GHZ-_EDITS/pen/YzoEYLq)}
-{Item 4 (https://codepen.io/GHZ-_EDITS/pen/OJeOQbZ)}
 
-```} Arrays
-Arrays são listas de valores.
+*{Item 1 (https://codepen.io/GHZ-_EDITS/pen/wvLeMYO?editors=0010)}*
 
-let frutas = ["maçã", "banana", "laranja"];
-console.log(frutas[0]); // maçã
+*{Item 2 (https://codepen.io/GHZ-_EDITS/pen/wvLeMYO)}*
 
-frutas.push("uva"); // Adiciona "uva" ao array
-console.log(frutas); // ["maçã", "banana", "laranja", "uva"
-```
+*{Item 3(https://codepen.io/GHZ-_EDITS/pen/YzoEYLq)}*
 
+*{Item 4 (https://codepen.io/GHZ-_EDITS/pen/OJeOQbZ)}*
 
+ 

@@ -24,22 +24,22 @@ const PI = 3.14;     // Constante que não pode ser reatribuída
 Tipos de Dados em JavaScript
 JavaScript suporta diversos tipos de dados. Aqui estão os principais tipos com exemplos:
 
-1. String
-2. Strings representam texto.
+#### 1. String
 
-javascript
-Copiar código
+```
 let saudacao = "Olá, Mundo!";
 console.log(saudacao); // Saída: Olá, Mundo!
 
 let nome = "Maria";
 let mensagem = "Bem-vinda, " + nome + "!";
 console.log(mensagem); // Saída: Bem-vinda, Maria!
-2. Number
-Números podem ser inteiros ou de ponto flutuante.
+```
 
-javascript
-Copiar código
+#### 2. Number
+
+
+Números podem ser inteiros ou de ponto flutuante.
+```
 let idade = 25; // Número inteiro
 let pi = 3.14;  // Número de ponto flutuante
 
@@ -48,11 +48,11 @@ console.log(pi);   // Saída: 3.14
 
 let soma = idade + pi;
 console.log(soma); // Saída: 28.14
-3. Boolean
-Booleanos representam valores lógicos: verdadeiro (true) ou falso (false).
+```
 
-javascript
-Copiar código
+### 3. Boolean
+Booleanos representam valores lógicos: verdadeiro (true) ou falso (false).
+```
 let verdadeiro = true;
 let falso = false;
 
@@ -65,11 +65,11 @@ if (verdadeiro) {
     console.log("Isso é falso!");
 }
 // Saída: Isso é verdadeiro!
-4. Object
-Objetos são coleções de pares chave-valor.
+```
 
-javascript
-Copiar código
+### 4. Object
+Objetos são coleções de pares chave-valor.
+```
 let pessoa = {
     nome: "Maria",
     idade: 25
@@ -85,11 +85,10 @@ console.log(pessoa.cidade); // Saída: São Paulo
 // Alterando um valor
 pessoa.idade = 26;
 console.log(pessoa.idade); // Saída: 26
-5. Exemplo com if...else
+```
+### 5. Exemplo com if...else
 Aqui está um exemplo de uso de tipos de dados com a estrutura condicional if...else.
-
-javascript
-Copiar código
+```
 let idade = 20;
 
 if (idade >= 18) {
@@ -98,11 +97,11 @@ if (idade >= 18) {
     console.log("Você é menor de idade.");
 }
 // Saída: Você é maior de idade.
+```
 
 ## 3. Condicionais
 
-``` javascript
-Copiar código
+``` 
 if (idade >= 18) {
     console.log("Você é maior de idade.");
 } else {

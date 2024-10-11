@@ -121,4 +121,9 @@ Escreva aqui as atividades desenvolvidas em sala e para casa. Você pode detelha
 
 *{Item 4 (https://codepen.io/GHZ-_EDITS/pen/OJeOQbZ)}*
 
+*{Irem 5 (https://codepen.io/GHZ-_EDITS/pen/JjgReoa?editors=0010)}*
+
+*{Irem 6 (https://codepen.io/GHZ-_EDITS/pen/gOVPGwa)}*
+
+*{Item 7 (https://codepen.io/GHZ-_EDITS/pen/NWQdbwJ)}*
  
